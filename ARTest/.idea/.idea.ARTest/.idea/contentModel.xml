@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\carme\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\carme\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_ARTest.405365377.00" t="ExcludeRecursive" />
-    <e p="C:\Users\carme\Desktop\UnityProject\ARTest" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="ARTest.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CubeManager.cs" t="Include" />
+        <e p="link.xml" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ARTapToPlaceObject.cs" t="Include" />
         </e>
@@ -18,5 +18,8 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_ARTest.-911767607.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>
