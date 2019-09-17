@@ -12,6 +12,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     public GameObject wayText;
     public GameObject cubeText;
     public GameObject waypoint;
+    public GameObject contentAppear;
     
     private ARSessionOrigin arOrigin;
     private Pose placementPose;
@@ -30,6 +31,7 @@ public class ARTapToPlaceObject : MonoBehaviour
         wayText.SetActive(true);
         cubeText.SetActive(false);
         StartCoroutine(TextTime());
+        arOrigin.MakeContentAppearAt(contentAppear.transform, Quaternion.identity);
     }
 
     // Update is called once per frame
